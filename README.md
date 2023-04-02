@@ -13,11 +13,11 @@ Once you run the code, the first few lines are going to say you about the visit 
 
 
 
-![Image](/Users/erolrecep/Desktop/initial_view.png "flask web app initial view")
+![Image](https://github.com/erolrecep/flask-computer_vision-template-projects/blob/main/images/initial_view.png "flask web app initial view")
 
 Once you upload the image, the final view will be ..
 
-![Image](/Users/erolrecep/Desktop/uploaded_view.png "flask web app initial view")
+![Image](https://github.com/erolrecep/flask-computer_vision-template-projects/blob/main/images/uploaded_view.png "flask web app uploaded view")
 
 Basically, all projects run with the same way if it's not explained otherwise.
 
