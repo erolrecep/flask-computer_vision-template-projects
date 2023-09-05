@@ -6,10 +6,12 @@ app = Flask(__name__)
 # OpenCV video capture object
 cap = cv2.VideoCapture(0)
 
+
 # Define route for homepage
 @app.route('/')
 def index():
     return render_template('index.html')
+
 
 # Define route for video feed
 @app.route('/video_feed')
@@ -30,6 +32,6 @@ def video_feed():
     # Use the Response class to stream video frames back to the web app
     return Response(gen(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
+
 if __name__ == '__main__':
     app.run(debug=True)
-
